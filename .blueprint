@@ -1,0 +1,13 @@
+created:
+    - database/factories/Models/LawyersProjectsFactory.php
+    - database/migrations/2021_06_16_132913_create_lawyers_projects_table.php
+    - app/Models/LawyersProjects.php
+    - database/seeders/LawyersProjectsSeeder.php
+models:
+    Models\Callback: { name: string, email: string, subject: string, message: string }
+    Models\ContractInfo: { last_name: string, first_name: string, middle_name: string, iin: string, passportno: string, given: string, period: date, tel_num: string, address: string }
+    Models\Gallery: { image: string }
+    Models\User: { name: string, email: string, email_verified_at: 'datetime nullable', password: string, remember_token: 'string:100 nullable' }
+    Models\Workers: { name: string, job: string, quote: string, image: string }
+    Models\Case: { img: string, title: string, description: string }
+    Models\LawyersProjects: { img: string, title: string, description: string }

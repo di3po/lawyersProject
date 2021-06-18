@@ -1,0 +1,7 @@
+models:
+  Models\LawyersProjects:
+    img: string
+    title: string
+    description: string
+
+seeders: LawyersProjects
